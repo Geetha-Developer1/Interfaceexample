@@ -42,27 +42,28 @@ namespace Interfaceexample
         void FaceID();
         void VideoCall();
         void AirDrop();
+        void EndCall();
     }
-    class Iphone16 :IPhoneSE,  IPhoneBasic, IPhoneAdvanced
+    class Iphone16 :  IPhoneBasic, IPhoneAdvanced
     {
         public void Calling()
         {
-            Console.WriteLine("IPhoneSE is Calling");
+            Console.WriteLine("IPhone16 is Calling");
 
         }
         public void Recieving()
         {
-            Console.WriteLine("IPhoneSE is Recieving the Call");
+            Console.WriteLine("IPhone16 is Recieving the Call");
 
         }
         public void SendMsg()
         {
-            Console.WriteLine("IPhoneSE is Sending Message");
+            Console.WriteLine("IPhone16 is Sending Message");
 
         }
         public void EndCall()
         {
-            Console.WriteLine("IPhoneSE is Ending the Call");
+            Console.WriteLine("IPhone16 is Ending the Call");
 
         }
 
