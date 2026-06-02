@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="BodiodMethod.cs" />
     <Compile Include="MultipleInheritance.cs" />
+    <Compile Include="PaymentExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

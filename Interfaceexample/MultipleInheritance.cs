@@ -82,24 +82,24 @@ namespace Interfaceexample
     }
     internal class MultipleInheritance
     {
-        static void Main(string[] args)
-        {
-            IPhoneBasic obj=new IPhoneSE();
-            obj.Calling();
-            obj.Recieving();
-            obj.SendMsg();
-            obj.EndCall();
+        //static void Main(string[] args)
+        //{
+        //    IPhoneBasic obj=new IPhoneSE();
+        //    obj.Calling();
+        //    obj.Recieving();
+        //    obj.SendMsg();
+        //    obj.EndCall();
 
-            obj = new Iphone16();
-            obj.Calling() ;
-            obj.Recieving();
-            obj.SendMsg();
-            obj.EndCall();
-            IPhoneAdvanced obj2 = new Iphone16();
-            obj2.FaceID();
-            obj2.VideoCall();
-            obj2.AirDrop();
+        //    obj = new Iphone16();
+        //    obj.Calling() ;
+        //    obj.Recieving();
+        //    obj.SendMsg();
+        //    obj.EndCall();
+        //    IPhoneAdvanced obj2 = new Iphone16();
+        //    obj2.FaceID();
+        //    obj2.VideoCall();
+        //    obj2.AirDrop();
 
-        }
+        //}
     }
 }
